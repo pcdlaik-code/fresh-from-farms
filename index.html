@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Joke Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="joke-generator">
+            <h1>😂 Joke Generator</h1>
+            <p class="subtitle">Get a random joke to brighten your day!</p>
+            
+            <div class="joke-display">
+                <p id="jokeText" class="joke-text">Click the button to get a joke...</p>
+            </div>
+            
+            <div class="controls">
+                <button id="getJokeBtn" class="btn btn-primary">Get Joke</button>
+                <button id="shareBtn" class="btn btn-secondary">Share Joke</button>
+            </div>
+            
+            <div id="loadingSpinner" class="spinner hidden"></div>
+            <p id="errorMessage" class="error-message hidden"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
